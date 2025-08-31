@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   //Ah jkae DA DA
+  //ah o sml
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,8 +24,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
-
-
 
   final String title;
 
