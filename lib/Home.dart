@@ -108,7 +108,10 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Row(
                 children: [
-                  Text("Categories", style: TextStyle(fontSize: 23)),
+                  Text(
+                    "Categories",
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+                  ),
                   Spacer(),
                   TextButton(
                     onPressed: () {},
@@ -220,7 +223,20 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
 
-              Row(children: [Text("Popular")]),
+              SizedBox(height: 20),
+              Row(
+                children: [
+                  Text(
+                    "Popular",
+                    style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+                  ),
+                  Spacer(),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("Show All", style: TextStyle(fontSize: 18)),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
